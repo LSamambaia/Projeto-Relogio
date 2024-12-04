@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+    
+
+
+}
+
+
+
+body{
+    background: url(https://www.colniza.mt.leg.br/imagens/fundo-3d-de-paisagens.jpg) center no-repeat;
+
+   background-size:cover;
+
+   height: 100vh ;
+   
+    
+    
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   
+
+
+
+}
+
+
+ 
+    
+
+
+
+h1{
+    text-align: center;
+    color: aliceblue;
+   
+
+}
+
+.relogio{
+    
+    border-radius: 8px;
+    margin: 5% ;
+    padding: 1rem;
+    align-items: center;
+    background-color: #c874502f;
+    display: flex;
+    width: 70%;
+    height: 30vh;
+    border: 2px solid;
+    box-shadow: 3px 4px 6px black;
+    /* position: absolute; */
+    gap: 3rem;
+    backdrop-filter: blur(6px);
+    
+
+}
+
+
+
+
+
+.filhos{
+    display: grid;
+   padding: .5rem;
+    text-align: center;
+    color: white;
+    
+    background-color: #b463402f;
+    box-shadow: 3px 3px 5px #0F0E0C;
+    backdrop-filter: blur(6px);
+
+    width: 20rem;
+    height: 20vh;
+    border-radius: 6px;
+   
+
+
+}
+
+.tempo{
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+#Horas,#Minutos,#Segundos{
+    font-size: 5rem;
+
+
+}
+
+@media(max-width:600px){
+    .relogio{
+        flex-direction: column;
+        width: 70%;
+        height: 80vh;
+
+    }
+
+    .relogio div{
+    width: 100%;
+    height: 30%;
+    
+
+
+}
+
+#tittle{
+    padding-bottom: 35rem;
+
+}
+
+};
